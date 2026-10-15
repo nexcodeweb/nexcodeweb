@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <path d="M0 250 L300 0 M850 300 L1150 0" stroke="#1D4ED8" stroke-opacity=".15" stroke-width="2"/>
+  <rect x="35" y="35" width="5" height="230" rx="2" fill="url(#blue)"/>
+
+  <g transform="translate(75 75)">
+    <path d="M0 100 V0 L72 65 V-5 L112 -5 V100 L40 35 V100 Z" fill="url(#blue)"/>
+  </g>
+
+  <text x="235" y="135" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#F9FAFB">NEXCODE</text>
+  <text x="240" y="180" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="10" fill="#60A5FA">STUDIO</text>
+  <line x1="240" y1="200" x2="680" y2="200" stroke="#2563EB" stroke-width="2"/>
+  <text x="240" y="235" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#D1D5DB">DESARROLLO WEB  |  SOLUCIONES DIGITALES</text>
+  <text x="240" y="260" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#9CA3AF">IDEAS THAT BECOME DIGITAL EXPERIENCES</text>
+
+  <circle cx="1050" cy="150" r="85" fill="none" stroke="#2563EB" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="1050" cy="150" r="65" fill="none" stroke="#60A5FA" stroke-opacity=".2" stroke-width="1"/>
+  <path d="M1005 150 H1095 M1050 105 V195" stroke="#60A5FA" stroke-opacity=".25" stroke-width="1"/>
+  <circle cx="1050" cy="150" r="5" fill="#38BDF8"/>
+</svg>
